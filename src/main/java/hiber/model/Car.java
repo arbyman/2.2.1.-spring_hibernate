@@ -12,7 +12,7 @@ public class Car {
 	private int id;
 
 	@OneToOne(mappedBy = "car")
-	User user;
+	private User user;
 
 	@Column(name = "model")
 	private String model;
